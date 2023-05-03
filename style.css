@@ -32,7 +32,7 @@ picture > img {
     margin-right: 25px;
 }
 
-#buttons-header .button {
+.button{
     font-weight: bold;
     padding: 15px;
     border-radius: 10px;
@@ -118,4 +118,13 @@ picture > img {
 
 #article-container article .text-article-container #details {
     display:flex;
+}
+
+/*FORMS SECTION*/
+#form-description {
+    position:absolute;
+}
+
+#formmulaire #form-description img{
+    width:35%;
 }
