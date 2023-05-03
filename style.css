@@ -122,9 +122,53 @@ picture > img {
 
 /*FORMS SECTION*/
 #form-description {
+    text-align: right;
+    margin-right: 50%;
+    margin-top: 50px;
+}
+
+#forms {
+    margin-left: 55%;
+    margin-top: 70px;
+}
+
+#form-description > * {
+    margin-bottom: 10px;
+}
+
+#form-description, #forms {
     position:absolute;
 }
 
+#forms > input{
+    width: 450px;
+    height: 50px;
+    padding:14px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#forms > button {
+    margin-top: 60px;
+    width: 450px;
+}
+
+#formmulaire #background-forms{
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+}
+
 #formmulaire #form-description img{
-    width:35%;
+    width:70%;
+}
+
+#formmulaire #form-description h2{
+    color: white;
+    font-size: 2.5em;
+}
+
+#formmulaire #form-description p{
+    color: white;
+    font-size: 1.8em;
 }
