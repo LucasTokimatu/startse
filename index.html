@@ -122,8 +122,30 @@
     </form>
 
     <footer id="footer">
-        <div>
+        <div id="footer-forms">
+            <h3>Cadastre-se e receba diariamente o resumo do que importa AGORA com a análise do time StartSe!
+            </h3>
+            <input type="text" id="first-name-footer" name="first-name-footer" placeholder="Qual o seu nome?">
+            <input type="text" id="email-footer" name="email-footer" placeholder="Digite seu melhor email!">
+            <button id="button-submit-footer" type="submit">Inscrever</button>
+        </div>
 
+        <div id="footer-social_media">
+            <h2>SIGA A STARTSE NAS REDES!</h2>
+            <div id="social_media-icons">
+                <picture>
+                    <!--INSERT a href to work as links-->
+                    <img alt="Instagram"
+                        src="data:image/png;base64,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" />
+                    <img alt="Linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />
+                    <img alt="Telegram" src="" />
+                    <img alt="Facebook" src="" />
+                    <img alt="Youtube" src="" />
+                    <img alt="Whatsapp" src="" />
+                    <img alt="Twitter" src="" />
+                    <img alt="TikTok" src="" />
+                </picture>
+            </div>
         </div>
     </footer>
 </body>
