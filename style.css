@@ -79,6 +79,10 @@ picture > img {
 
 
 /*ARTICLE SECTION*/
+
+h2 {
+    margin: 10px;
+}
 #article-container {
     display: flex;
     gap:10px;
@@ -176,9 +180,15 @@ picture > img {
 /*FOOTER*/
 #footer {
     margin-top: 20px;
+    display:flex;
 }
 
-#footer > #footer-forms > * {
+#footer #footer-forms h3{
+    margin: 10px;
+    font-size: 1.6em;
+} 
+
+.forms-footer, #button-submit-footer{
     margin: 10px;
     width: 350px;
 }
@@ -195,6 +205,41 @@ picture > img {
     font-size: 1.1em;
 }
 
-#footer #footer-social_media #social_media-icons img {
-    width:auto;
+#footer #footer-social_media {
+    margin-left: 50px;
 }
+
+#footer #footer-social_media #social_media-icons img {
+    width:32px;
+}
+
+#footer > #footer-social_media > #social_media-icons{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#footer > #footer-social_media > #social_media-icons > picture{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+#footer > #footer-social_media > #social_media-icons > picture > *{
+    margin-right: 15px;
+}
+
+#footer > #footer-forms > .forms-footer {
+    width: 300px;
+    height: 40px;
+    padding:14px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#footer > #footer-forms > #button-submit-footer {
+    width: 150px;
+}
+
+
+
