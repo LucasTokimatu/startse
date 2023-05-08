@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <title>Document</title>
 </head>
 
 <body>
     <header id="main-header">
         <picture>
-            <img
-                src="https://imgs.search.brave.com/QIw4ngxq9gxTKwKYgFEPJywcXeCtND6UW3dP_XAPqtY/rs:fit:1386:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5t/RDZ2WURnak1VVzND/b3NpSHVxY2Z3SGFD/aSZwaWQ9QXBp" />
+
+            <a href="https://www.startse.com/"><img
+                    src="https://imgs.search.brave.com/QIw4ngxq9gxTKwKYgFEPJywcXeCtND6UW3dP_XAPqtY/rs:fit:1386:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5t/RDZ2WURnak1VVzND/b3NpSHVxY2Z3SGFD/aSZwaWQ9QXBp" />
+            </a>
         </picture>
         <div id="buttons-header">
             <button class="button" id="button-aluno">Sou aluno</button>
@@ -44,11 +47,14 @@
                     do papel em uma semana de aprendizado imersivo direto do local mais inovador do planeta</p>
             </div>
         </div>
+        <a href="https://www.startse.com/silicon-valley-experience/">
+            <button id="button-main">Clique aqui</button>
+        </a>
         <img src="https://www.startse.com/_next/image/?url=https%3A%2F%2Fimages.prismic.io%2Fshowcase-startse%2F5025049c-3aa1-4578-9a63-b459fa7c6d05_Banner%2B%25286%2529.png%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C0%2C4320%2C1350%26w%3D1440%26h%3D450&w=1920&q=75"
             alt="Image of a bridge with a logo written StartSe University" />
     </main>
 
-    <h2>Próximos eventos</h2>
+    <h2 id="section-header">Próximos eventos</h2>
 
     <section id="article-container">
         <article>
@@ -136,7 +142,6 @@
             <h2>SIGA A STARTSE NAS REDES!</h2>
             <div id="social_media-icons">
                 <picture>
-                    <!--INSERT a href to work as links-->
                     <a href="https://www.instagram.com/startseoficial/"><img alt="Instagram"
                             src="data:image/png;base64,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" /></a>
 

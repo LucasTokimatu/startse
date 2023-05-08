@@ -1,0 +1,77 @@
+@media (max-width:1100px) {
+    #text-main-content {
+        font-size: 0.8rem;
+        width: 50%;
+    }
+}
+
+@media (max-width:1020px) {
+    #formmulaire {
+        width: 100%;
+    }
+
+    #formmulaire > #forms > input {
+        width: 100%;
+    }
+
+    #formmulaire > #forms > button {
+        width: 100%;
+    }
+    /*
+    #form-description {
+        display: block;
+        width: 100vh;
+        text-align: center;
+        margin-left: 10%;
+    }*/
+}
+
+@media (max-width:970px) {
+    #text-main-content {
+        font-size: 0.7rem;
+        margin: 00px;
+    }
+}
+
+@media (max-width:880px) {
+    #title-main-content {
+        width:100%;
+        font-size: 1px;
+        margin-left: 50%;
+        text-align: center;
+    }
+
+    #paragraph-main-content {
+        display:none;
+    }
+
+    #button-main {
+        display:block;
+    }
+}
+
+@media (max-width:830px) {
+    #footer {
+        display: block;
+    }
+
+    #footer-forms {
+        text-align: center;
+    }
+
+    #footer > #footer-forms > #button-submit-footer {
+        width: 100%;
+    }
+
+    #footer > #footer-social_media {
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+
+    #footer > #footer-social_media >h2 {
+        border-top: 1px solid #C4C4C4;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+}
