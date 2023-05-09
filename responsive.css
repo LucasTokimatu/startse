@@ -34,11 +34,16 @@
 }
 
 @media (max-width:880px) {
-    #title-main-content {
-        width:100%;
-        font-size: 1px;
-        margin-left: 50%;
+    #main-content #title-main-content > h2{
+        width:90%;
+        font-size: 3vw;
+        margin-left: 40%;
         text-align: center;
+        margin-top: 0;
+    }
+
+    #main-content #text-main-content {
+        margin-top:4%;
     }
 
     #paragraph-main-content {
@@ -47,6 +52,8 @@
 
     #button-main {
         display:block;
+        font-size: 3vw;
+        padding:3vw;
     }
 }
 
@@ -59,13 +66,18 @@
         text-align: center;
     }
 
+    #footer > #footer-forms > .forms-footer{
+        width:80%;
+    }
+
     #footer > #footer-forms > #button-submit-footer {
-        width: 100%;
+        width: 80%;
     }
 
     #footer > #footer-social_media {
         margin-top: 50px;
-        margin-left: 70px;
+        margin-left: 10%;
+        text-align:center;
     }
 
     #footer > #footer-social_media >h2 {
@@ -73,5 +85,88 @@
         width: 100%;
         padding: 10px;
         text-align: center;
+    }
+}
+
+@media (max-width:650px) {
+    #article-container {
+        display: block;
+    }
+
+    .articles {
+        margin-bottom: 55px;
+    }
+
+    #article-container .articles button {
+        width: 40%;
+    }
+}
+
+@media (max-width:510px) {
+    #navigation-menu > ul {
+        flex-wrap:wrap;
+    }
+    .button {
+        font-size: 3vw;
+        padding:3vw;
+        margin-bottom:5px;
+    }
+
+    picture > a > img {
+        max-width: 100%;
+    }
+
+    #formmulaire #form-description h2 {
+        font-size: 5vw;
+    }
+
+
+    #formmulaire #form-description p {
+        font-size: 5vw;
+    }
+
+}
+
+@media (max-width:360px) {
+    #footer #footer-social_media #social_media-icons img {
+        min-width:32px;
+    }
+
+    #footer > #footer-social_media > #social_media-icons > picture {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 255px) {
+    #article-container article .text-article-container button {
+        font-size: 5vw;
+    }
+    
+    #forms > input {
+        height: 30px;
+    }
+
+    #form-description {
+        margin-right: 0;
+    }
+
+    #formmulaire #form-description h2 {
+        display:none;
+    }
+
+    #formmulaire #form-description p {
+        font-size: 5vw;
+    }
+
+    #forms > button {
+        margin-top: 10px;
+    }
+    
+    #forms {
+        margin-left: 10%;
+        margin-top: 150px;
+        max-width: 80%;
+        max-height: 80%;
     }
 }
